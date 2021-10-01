@@ -1,0 +1,33 @@
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  margin: 120px auto;
+}
+
+.featured-image {
+  height: 367px;
+  width: 643px;
+}
+
+.content h1 {
+  font-size: 45px;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #212529;
+  font-weight: 400;
+}
+
+.text {
+  padding-top: 50px;
+  font-family: "Noto Sans Display" !important;
+  line-height: 32px;
+  font-size: 19px;
+  color: #292929 !important;
+}
+
+.text h2 {
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

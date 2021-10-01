@@ -1,0 +1,48 @@
+.postContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 120px !important;
+}
+
+.post {
+  padding: 15px 18px;
+  display: flex;
+}
+
+.featured {
+  height: 150px;
+  width: 150px;
+}
+
+.postDetails {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.post h2 {
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  padding-top: 8px;
+}
+
+.postTitle {
+  color: #292929 !important;
+  text-decoration: none;
+}
+
+.excerpt {
+  font-size: 15px;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #757575;
+  margin-top: -15px;
+}
+
+.date {
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #757575;
+  font-size: 12px;
+  text-align: right;
+}

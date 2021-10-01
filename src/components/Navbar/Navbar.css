@@ -1,0 +1,50 @@
+.navbar {
+  box-sizing: border-box;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.logo {
+  height: 70px;
+  width: 50px;
+  object-fit: contain;
+}
+
+.navbarHeading {
+  font-family: "Noto Sans Display" !important;
+  letter-spacing: 1px;
+  font-size: 28px;
+  font-weight: bolder;
+  padding-left: 0.5rem;
+  padding-top: 0.8rem;
+}
+
+ul {
+  list-style: none !important;
+  display: table;
+  text-align: center;
+}
+
+.nav-item {
+  display: table-cell;
+  position: relative;
+  padding: 15px 0;
+  list-style: none !important;
+}
+
+.nav-link {
+  color: black;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 21px;
+  display: inline-block;
+  position: relative;
+  font-family: "Noto Sans Display" !important;
+  font-weight: none;
+  transition: 0.5s;
+}
+
+.nav-link:hover {
+  background: #000;
+  color: white !important;
+}

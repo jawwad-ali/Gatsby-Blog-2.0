@@ -21,6 +21,13 @@
   margin-left: 20px;
 }
 
+.postContainer h2 {
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  padding-top: 8px;
+}
+
 .post h2 {
   font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;

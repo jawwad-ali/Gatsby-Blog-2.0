@@ -35,6 +35,7 @@ function Blog() {
     return (
         <>
             <div className="postContainer">
+                <h2>Most Recent</h2>
                 {result.allContentfulBlogPost.edges.map(edge => {
                     return (
                         <div className="post" key={edge.node.id}>

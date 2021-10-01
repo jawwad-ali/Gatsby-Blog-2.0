@@ -35,7 +35,6 @@ const BlogPost = props => {
     return (
         <Layout>
             <SEO title={props.data.contentfulBlogPost.title} />
-
             <div className="content">
                 <h1>{props.data.contentfulBlogPost.title}</h1>
                 <span className="date">

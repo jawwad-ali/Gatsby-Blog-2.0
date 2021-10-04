@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Img from "gatsby-image"
 import SEO from "../components/seo"
@@ -31,7 +31,6 @@ export const query = graphql`
 `
 
 const BlogPost = props => {
-    const isSSR = typeof window === "undefined";
     return (
         <Layout>
             <SEO title={props.data.contentfulBlogPost.title} />

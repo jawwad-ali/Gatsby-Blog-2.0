@@ -11,7 +11,7 @@
 }
 
 .navbarHeading {
-  font-family: "Noto Sans Display" !important;
+  font-family: "Noto Sans Display", sans-serif !important;
   letter-spacing: 1px;
   font-size: 28px;
   font-weight: bolder;
@@ -39,7 +39,7 @@ ul {
   font-size: 21px;
   display: inline-block;
   position: relative;
-  font-family: "Noto Sans Display" !important;
+  font-family: "Noto Sans Display", sans-serif !important;
   font-weight: none;
   transition: 0.5s;
 }

@@ -1,6 +1,4 @@
 .postContainer {
-  display: flex;
-  flex-direction: column;
   position: relative;
   top: 120px !important;
 }
@@ -22,14 +20,14 @@
 }
 
 .postContainer h2 {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: sohne, "Helvetica Neue", sans-serif;
   font-weight: 700;
   font-size: 25px;
   padding-top: 8px;
 }
 
 .post h2 {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: sohne, "Helvetica Neue", sans-serif;
   font-weight: 700;
   font-size: 19px;
   padding-top: 8px;
@@ -42,13 +40,13 @@
 
 .excerpt {
   font-size: 15px;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: sohne, "Helvetica Neue", sans-serif;
   color: #757575;
   margin-top: -15px;
 }
 
 .date {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: sohne, "Helvetica Neue", sans-serif;
   color: #757575;
   font-size: 12px;
   text-align: right;

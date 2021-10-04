@@ -7,7 +7,7 @@ function Navbar() {
         <>
             <nav className="navbar fixed-top navbar-expand-lg navbar-light">
                 <div className="container-fluid">
-                    <div className="headingDiv">
+                    <div className="headingDiv ">
                         <h1 className="navbarHeading">BlogSite</h1>
                     </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

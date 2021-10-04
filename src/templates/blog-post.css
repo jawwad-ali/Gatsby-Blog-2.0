@@ -31,3 +31,15 @@
 .text h2 {
   font-family: sohne, "Helvetica Neue", sans-serif;
 }
+
+@media only screen and (max-width: 600px) {
+  .content {
+    width: 90%;
+  }
+  .content h1 {
+    font-size: 38px;
+  }
+  .featured-image {
+    width: 100%;
+  }
+}

@@ -3,16 +3,24 @@
   top: 120px;
 }
 
+.right-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+
 .mainHeading {
   font-size: 75px;
-  padding: 20px;
+  padding: auto 0 !important;
   line-height: 80px;
   font-family: "Yantramanav", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
+  line-height: 70px;
 }
 
 .lp-btn {
-  margin-left: 30px;
   border: 1px solid black;
   font-size: 18px;
   font-family: "Noto Sans Display", sans-serif !important;
@@ -33,4 +41,13 @@
   background-size: cover;
   height: 450px;
   margin-top: -50px;
+}
+
+@media only screen and (max-width: 320px) {
+  .mainHeading {
+    font-size: 65px;
+  }
+  .imgContainer {
+    margin-top: 70px;
+  }
 }

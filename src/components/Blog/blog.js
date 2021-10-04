@@ -34,36 +34,6 @@ function Blog() {
 
     return (
         <>
-            {/* <div className="postContainer">
-                <h2>Most Recent</h2>
-                {result.allContentfulBlogPost.edges.map(edge => {
-                    return (
-                        <div className="post" key={edge.node.id}>
-                            {edge.node.featuredImage && (
-                                <Img
-                                    className="featured"
-                                    fluid={edge.node.featuredImage.fluid}
-                                    alt={edge.node.title}
-                                />
-                            )}
-                            <div className="postDetails">
-                                <h2>
-                                    <Link className="postTitle" to={`/blog/${edge.node.slug}/`}>{edge.node.title}</Link>
-                                </h2>
-                                <p className="excerpt">
-                                    {edge.node.excerpt.childMarkdownRemark.excerpt}...
-                                </p>
-
-                                <div className="date">
-                                    <div>{edge.node.publishedDate}</div>
-                                </div>
-                            </div>
-                        </div>
-                    )
-                })}
-            </div> */}
-
-
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 postContainer">

@@ -43,7 +43,7 @@
   margin-top: -50px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 768px) {
   .mainHeading {
     font-size: 65px;
   }

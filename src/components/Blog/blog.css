@@ -52,11 +52,14 @@
   text-align: right;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) {
   .post {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
+  }
+  .most-recent {
+    margin-left: 25px !important;
   }
   .featured {
     display: block;

@@ -37,7 +37,7 @@ function Blog() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 postContainer">
-                        <h2>Most Recent</h2>
+                        <h2 className="ps-3 most-recent">Most Recent</h2>
                         {result.allContentfulBlogPost.edges.map(edge => {
                             return (
                                 <div className="post" key={edge.node.id}>
